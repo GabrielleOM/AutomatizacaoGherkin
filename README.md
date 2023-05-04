@@ -21,3 +21,6 @@ Teste criado para validar se o cenário de teste em Gherkin considerado como cr�
 ## Notas Gerais
 Foi criado um arquivo **.feature** para o armazenamento do cenário de teste em Gherkin.
 Para que esse cenário possa ser executado de forma automatizada, foi criado também uma classe **Runner.java** que possui o intuito de executar os testes definidos nos arquivos .feature e também encontrar os métodos correspondentes no arquivo **LoginSteps.java** de definição de passos.
+
+O teste automatizado será executado com êxito, somente se a versão do driver instalado na máquina do usuário for a mesma versão do navegador Chrome.
+Para isso, basta fazer download do driver https://chromedriver.chromium.org/downloads e colocar o caminho da pasta na linha 22 do arquivo LoginSteps.java
