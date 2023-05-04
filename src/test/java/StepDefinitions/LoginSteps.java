@@ -51,9 +51,6 @@ public class LoginSteps {
                         .until(ExpectedConditions.visibilityOfElementLocated(By.id("password")));
                 digitaSenha.sendKeys("senhaerrada");
 
-                WebElement entrar = new WebDriverWait(driver, Duration.ofSeconds(100))
-                        .until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button[class='btn btn--md btn--full btn--solid btn-primary--solid']")));
-                entrar.click();
 
             }
 
